@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pbxUpperLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 45</value>
+  </data>
+  <data name="pbxUpperLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbxUpperLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperLeft.Name" xml:space="preserve">
+    <value>pbxUpperLeft</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperLeft.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="pbxMiddleCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 218</value>
+  </data>
+  <data name="pbxMiddleCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxMiddleCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleCenter.Name" xml:space="preserve">
+    <value>pbxMiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleCenter.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="pbxMiddleRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 218</value>
+  </data>
+  <data name="pbxMiddleRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxMiddleRight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleRight.Name" xml:space="preserve">
+    <value>pbxMiddleRight</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleRight.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="pbxLowerRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 386</value>
+  </data>
+  <data name="pbxLowerRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxLowerRight.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerRight.Name" xml:space="preserve">
+    <value>pbxLowerRight</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerRight.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="pbxLowerCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 386</value>
+  </data>
+  <data name="pbxLowerCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxLowerCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerCenter.Name" xml:space="preserve">
+    <value>pbxLowerCenter</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerCenter.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="pbxLowerLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 386</value>
+  </data>
+  <data name="pbxLowerLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxLowerLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerLeft.Name" xml:space="preserve">
+    <value>pbxLowerLeft</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxLowerLeft.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pbxMiddleLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 218</value>
+  </data>
+  <data name="pbxMiddleLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxMiddleLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleLeft.Name" xml:space="preserve">
+    <value>pbxMiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxMiddleLeft.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pbxUpperRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 45</value>
+  </data>
+  <data name="pbxUpperRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxUpperRight.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperRight.Name" xml:space="preserve">
+    <value>pbxUpperRight</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperRight.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pbxUpperCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 45</value>
+  </data>
+  <data name="pbxUpperCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pbxUpperCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperCenter.Name" xml:space="preserve">
+    <value>pbxUpperCenter</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbxUpperCenter.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblUpperLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 45</value>
+  </data>
+  <data name="lblUpperLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblUpperLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblUpperLeft.Name" xml:space="preserve">
+    <value>lblUpperLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUpperLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUpperLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblUpperLeft.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblMiddleCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 218</value>
+  </data>
+  <data name="lblMiddleCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblMiddleCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleCenter.Name" xml:space="preserve">
+    <value>lblMiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleCenter.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblLowerRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 386</value>
+  </data>
+  <data name="lblLowerRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblLowerRight.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblLowerRight.Name" xml:space="preserve">
+    <value>lblLowerRight</value>
+  </data>
+  <data name="&gt;&gt;lblLowerRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLowerRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLowerRight.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblLowerCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 386</value>
+  </data>
+  <data name="lblLowerCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblLowerCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblLowerCenter.Name" xml:space="preserve">
+    <value>lblLowerCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLowerCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLowerCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLowerCenter.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblLowerLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 386</value>
+  </data>
+  <data name="lblLowerLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblLowerLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblLowerLeft.Name" xml:space="preserve">
+    <value>lblLowerLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLowerLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLowerLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLowerLeft.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblMiddleRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 218</value>
+  </data>
+  <data name="lblMiddleRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblMiddleRight.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleRight.Name" xml:space="preserve">
+    <value>lblMiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleRight.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblMiddleLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 218</value>
+  </data>
+  <data name="lblMiddleLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblMiddleLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleLeft.Name" xml:space="preserve">
+    <value>lblMiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMiddleLeft.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblUpperRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 45</value>
+  </data>
+  <data name="lblUpperRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblUpperRight.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblUpperRight.Name" xml:space="preserve">
+    <value>lblUpperRight</value>
+  </data>
+  <data name="&gt;&gt;lblUpperRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUpperRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblUpperRight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblUpperCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 45</value>
+  </data>
+  <data name="lblUpperCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lblUpperCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblUpperCenter.Name" xml:space="preserve">
+    <value>lblUpperCenter</value>
+  </data>
+  <data name="&gt;&gt;lblUpperCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUpperCenter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblUpperCenter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblError.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 48pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 568</value>
+  </data>
+  <data name="lblError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 79</value>
+  </data>
+  <data name="lblError.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblError.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblError.Name" xml:space="preserve">
+    <value>lblError</value>
+  </data>
+  <data name="&gt;&gt;lblError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblError.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblError.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnContinue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 573</value>
+  </data>
+  <data name="btnContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="btnContinue.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnContinue.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="btnContinue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnContinue.Name" xml:space="preserve">
+    <value>btnContinue</value>
+  </data>
+  <data name="&gt;&gt;btnContinue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnContinue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnContinue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblXWinCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Quartz MS, 27.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblXWinCounter.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblXWinCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 551</value>
+  </data>
+  <data name="lblXWinCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 45</value>
+  </data>
+  <data name="lblXWinCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblXWinCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblXWinCounter.Name" xml:space="preserve">
+    <value>lblXWinCounter</value>
+  </data>
+  <data name="&gt;&gt;lblXWinCounter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblXWinCounter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblXWinCounter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblOWinCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Quartz MS, 27.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblOWinCounter.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblOWinCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 602</value>
+  </data>
+  <data name="lblOWinCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 45</value>
+  </data>
+  <data name="lblOWinCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblOWinCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOWinCounter.Name" xml:space="preserve">
+    <value>lblOWinCounter</value>
+  </data>
+  <data name="&gt;&gt;lblOWinCounter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOWinCounter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblOWinCounter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblShowXWin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblShowXWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 551</value>
+  </data>
+  <data name="lblShowXWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 45</value>
+  </data>
+  <data name="lblShowXWin.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblShowXWin.Text" xml:space="preserve">
+    <value>X Won =</value>
+  </data>
+  <data name="lblShowXWin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblShowXWin.Name" xml:space="preserve">
+    <value>lblShowXWin</value>
+  </data>
+  <data name="&gt;&gt;lblShowXWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowXWin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblShowXWin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblShowOWin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblShowOWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 602</value>
+  </data>
+  <data name="lblShowOWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 45</value>
+  </data>
+  <data name="lblShowOWin.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblShowOWin.Text" xml:space="preserve">
+    <value>O Won =</value>
+  </data>
+  <data name="lblShowOWin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblShowOWin.Name" xml:space="preserve">
+    <value>lblShowOWin</value>
+  </data>
+  <data name="&gt;&gt;lblShowOWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowOWin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblShowOWin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>704, 662</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tic Tac Toe</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
